@@ -1,0 +1,54 @@
+﻿
+
+<div class="jumbotron">
+    <h1>MP4生成</h1>
+
+    <p><button onclick="showtext()" class="btn btn-primary btn-lg">MP4条件设定</button></p>
+</div>
+<div id="mp4Parameters" class="mp4Parameters" style="display:none;width:auto;height:auto">
+    <div>
+        <form action="/home/mp4Generated" method="post">
+            <p>帧：     <input type="text" name="frame" /></p>
+            <p>关键帧： <input type="text" name="keyframe" /></p>
+            <p>
+                声道：   <select name="channel">
+                    <option value="1" selected>立体声</option>
+                    <option value="2">单声道</option>
+                </select>
+            </p>
+            <p>
+                比特率：<select name="bitrate">
+                    <option value="1">64kbs</option>
+                    <option value="2">96kbs</option>
+                    <option value="3" selected>128kbs</option>
+                    <option value="4">192kbs</option>
+                    <option value="5">256kbs</option>
+                </select>
+            </p>
+            <p>
+                采样频率：<select name="SamplingRate">
+                    <option value="1">11025Hz</option>
+                    <option value="2">22050Hz</option>
+                    <option value="3" selected>44100Hz</option>
+                    <option value="4">48000Hz</option>
+                </select>
+            </p>
+            <input type="submit" class="btn btn-primary btn-lg" name="button" value="生成" />
+            <button class="btn btn-primary btn-lg" onclick="hidetext()">关闭</button>
+        </form>
+    </div>
+
+</div>
+<script type="text/javascript">
+
+        function hidetext()
+        {
+            var mychar = document.getElementById("mp4Parameters").style.display = "none";
+
+        }
+        function showtext()
+        {
+            var mychar = document.getElementById("mp4Parameters").style.display = "block";
+
+        }
+</script>

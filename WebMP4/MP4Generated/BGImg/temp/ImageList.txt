@@ -1,0 +1,12 @@
+file 'D:\BaiduNetdiskDownload\WebMP4\WebMP4\MP4Generated\BGImg\temp\0.png'
+duration 3
+file 'D:\BaiduNetdiskDownload\WebMP4\WebMP4\MP4Generated\BGImg\temp\1.png'
+duration 3
+file 'D:\BaiduNetdiskDownload\WebMP4\WebMP4\MP4Generated\BGImg\temp\2.png'
+duration 3
+file 'D:\BaiduNetdiskDownload\WebMP4\WebMP4\MP4Generated\BGImg\temp\3.png'
+duration 3
+file 'D:\BaiduNetdiskDownload\WebMP4\WebMP4\MP4Generated\BGImg\temp\4.png'
+duration 3
+file 'D:\BaiduNetdiskDownload\WebMP4\WebMP4\MP4Generated\BGImg\temp\5.png'
+
